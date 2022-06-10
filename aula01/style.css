@@ -2,6 +2,7 @@
 
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -35,7 +36,7 @@ p {
 
 input {
     display: block;
-    width: 90%;
+    width: 100%;
 
     padding: 20px;
     margin-bottom: 15px;
@@ -44,7 +45,7 @@ input {
 }
 button {
     display: block;
-    width: 101%;
+    width: 100%;
 
     padding: 20px;
     font-size: 20px;
@@ -58,4 +59,16 @@ button {
 button:hover {
     filter: brightness(1.2);
     cursor: pointer;
+}
+
+#resposta {
+    margin-top: 30px;
+    transition: opacity 1s;
+}
+
+h3#resposta > div {
+    font-size: 16px;
+    font-weight: normal;
+    opacity: 0.9;
+    margin-bottom: 10px;
 }
