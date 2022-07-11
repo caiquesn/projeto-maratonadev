@@ -2,4 +2,4 @@
  
  Rocketseat
  
- https://caiquesn.github.io/maratonadev/
+ https://caiquesn.github.io/projeto-maratonadev/
